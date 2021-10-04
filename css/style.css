@@ -72,6 +72,27 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 800px) and(min-width:421){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 1.3rem;
+  }
+  .row{
+    width: 800px;    
+  }
+  
+  #lezioni .row>.left,#lezioni .row>.right {
+    width: auto;
+  }
+
+  #steps .row>.left,#steps .row>.central,#steps .row>.right {
+    width: auto;
+  }
+}
 
 @media all and (max-width: 420px) {
   * {
@@ -96,3 +117,4 @@ img {
     width: auto;
   }
 }
+
